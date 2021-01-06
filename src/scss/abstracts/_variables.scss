@@ -1,0 +1,16 @@
+
+$number:3px;
+$string1:"block";
+$string2:"none";
+$color:#aaff99;
+$list: 1px solid red;
+$list2: primary ,secondary, tertiary;
+$boolean:true;
+$map: (
+    primary:red,
+    secundary:blue,
+    ternary:green
+);
+
+@debug $number;
+@debug type-of($number);
